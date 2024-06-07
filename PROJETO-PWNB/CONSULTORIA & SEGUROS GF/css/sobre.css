@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.0); /* Fundo branco com opacidade para tornar transparente */
+  padding: 20px;
+  border-radius: 10px; /* Bordas arredondadas para um visual mais suave */
+}
+
+.quemsomos {
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 1.5px;
+}
+
+.info {
+  width: 400px;
+  height: 600px;
+  background-color: #0059d3;
+  border-radius: 0px;
+  backdrop-filter: blur(10px);
+  box-shadow: 3px 5px 8px rgba(0, 0, 0, 1.5);
+  text-align: left;
+  text-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
+  margin: 30px;
+  margin-top: -50px;
+  font-size: 16px;
+  padding-left: 50%;
+  padding: 15px;
+  display: grid;
+  color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+}
+
+.icon4 {
+  padding-left: 6%;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border: 10px 10px;
+}

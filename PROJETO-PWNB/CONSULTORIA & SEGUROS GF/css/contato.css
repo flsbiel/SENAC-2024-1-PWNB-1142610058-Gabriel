@@ -1,0 +1,79 @@
+.mapa {
+  padding: 20px;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#contact {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  #contact h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  #contact p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  #contactForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #0056b3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Ajuste para adicionar margem inferior */
+  }
+
+
+  
+  button:hover {
+    background-color: #004494;
+  }
+  
+  #backButton {
+    background-color: #333;
+  }
+  
+  #backButton:hover {
+    background-color: #555;
+  }
+
